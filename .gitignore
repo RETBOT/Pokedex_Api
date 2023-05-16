@@ -1,0 +1,95 @@
+# Archivos y directorios específicos de Visual Studio
+.vs/
+*.suo
+*.user
+*.userprefs
+*.docstates
+bin/
+obj/
+
+# Archivos generados por el IDE de desarrollo de Visual Studio
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+*.aps
+*.exp
+*.exp
+*.lib
+*.dll
+*.pdb
+*.idb
+*.ipdb
+*.manifest
+*.obj
+*.pch
+*.res
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Archivos específicos de MVC Core 3.1
+Models/Database.cs
+
+# Directorio "obj" dentro de los proyectos
+**/obj/
+
+# Archivos generados por NuGet
+*.nuget.props
+*.nuget.targets
+
+# Archivos de caché y de generación de archivos
+*_ReSharper*/
+*.resharper
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+*.sln.docstates
+
+# Archivos de publicación
+_PublishedWebsites/
+pubxml.bak
+
+# Otros archivos y directorios generados por Visual Studio
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*.dbmdl
+Generated_Code/
+
+# Otros archivos y directorios generados por Rider
+.idea/
+*.sln.iml
+
+# Directorio de almacenamiento local de Docker
+.docker/
+docker-compose.yml
+docker-compose.override.yml
