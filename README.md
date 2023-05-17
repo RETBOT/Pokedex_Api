@@ -37,6 +37,8 @@ Para mas información: [App Nodejs Server]( https://github.com/RETBOT/Pokedex_Ap
 
 ## Peticiones 
 URl de servidor en linea: https://pokedex-api-server.onrender.com/api/v1/pokedex <br>
+Para continuar a la siguiente pagina modificar page=[Número de página] <br>
+Ejemplo: https://pokedex-api-server.onrender.com/api/v1/pokedex?page=2 
 
 ## Imagenes
 ![Api-Pokemon](https://github.com/RETBOT/Pokedex_Api_Nodejs/blob/main/Imgs/Pokemon%20Api.png)
