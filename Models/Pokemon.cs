@@ -10,6 +10,8 @@ namespace Pokedex_Api.Models
     public class Pokemon
     {
         [BsonId]
+        public int Id { get; set; }
+        [BsonElement("numero")]
         public string Numero { get; set; }
         [BsonElement("url")]
         public string Url { get; set; }

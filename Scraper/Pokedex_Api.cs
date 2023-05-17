@@ -88,6 +88,12 @@ namespace Pokedex_Api.Scraper
                     // obtiene el texto interno utilizando la propiedad InnerText. El número del Pokémon se asigna a la propiedad Numero del objeto Pokemon.
                     pokemon.Nombre = nombre.First().InnerText.Replace(pokemon.Numero, "").Replace("\n","").Trim();
                     pokemon.Numero = pokemon.Numero.Replace("&nbsp;", "");
+
+                    // Utilizar una expresión regular para encontrar los dígitos en la cadena
+                    string soloDigitos = Regex.Replace(pokemon.Numero, @"\D", "");
+
+                    // Convertir la cadena de dígitos a un entero
+                    pokemon.Id = int.Parse(soloDigitos);
                 }
                 // Imagen
                 // Busca todos los elementos div que tienen la clase profile-images dentro del documento HTML y los guarda en la variable imagen.
