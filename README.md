@@ -39,15 +39,40 @@ Para mas información: [App Nodejs Server]( https://github.com/RETBOT/Pokedex_Ap
 URl de servidor en linea: https://pokedex-api-server.onrender.com/api/v1/pokedex <br>
 Para continuar a la siguiente pagina modificar page=[Número de página] <br>
 Ejemplo: https://pokedex-api-server.onrender.com/api/v1/pokedex?page=2 
+
 ## Imagenes
-```
+
+### Pokémons por Página
+Obtén información sobre los pokémons de la página 1 de la pokédex.
+``` API
  https://pokedex-api-server.onrender.com/api/v1/pokedex?page=1
- ```
-![Api-Pokemon](https://github.com/RETBOT/Pokedex_Api_Nodejs/blob/main/Imgs/Pokemon%20Api.png)
 ```
- https://pokedex-api-server.onrender.com/api/v1/pokedex/4
+Imagen: 
+![Api-Pokemon](https://github.com/RETBOT/Pokedex_Api_Nodejs/blob/main/Imgs/Pokemon%20Api.png)
+
+### Pokémon por ID
+Obtén información sobre un pokémon específico utilizando su ID.
+``` API
+ https://pokedex-api-server.onrender.com/api/v1/pokedex/id/4
+```
+Imagen: 
+![Api-id-Pokemon](https://github.com/RETBOT/Pokedex_Api_Nodejs/blob/main/Imgs/Pokemon%20Api%20pokemon.png)
+
+### Pokémon por Tipo
+Se puede ir concatenando con "&" y muestra todos los tipos de pokemon encontrados 
+``` API
+ https://pokedex-api-server.onrender.com/api/v1/pokedex/type/fuego&volador
+```
+Imagen: 
+![Api-tipo-Pokemon](https://github.com/RETBOT/Pokedex_Api_Nodejs/blob/main/Imgs/Pokemon%20Api%20tipo.png)
+
+### Pokémon por Debilidad
+Obtén información sobre los pokémons que tienen debilidad a uno o varios tipos. Puedes concatenar varios tipos de debilidades utilizando el símbolo "&".
+``` API
+ https://pokedex-api-server.onrender.com/api/v1/pokedex/weakness/tierra&roca
  ```
-![Api-1-Pokemon](https://github.com/RETBOT/Pokedex_Api_Nodejs/blob/main/Imgs/Pokemon%20Api%20pokemon.png)
+Imagen: 
+![Api-tipo-Pokemon](https://github.com/RETBOT/Pokedex_Api_Nodejs/blob/main/Imgs/Pokemon%20Api%20weakness.png)
 
 Nota: El servidor está en la plataforma onrender. En circunstancias normales, cuando no hay usuarios activos, puede tomar de 2 a 3 minutos para que el servidor se inicie. Sin embargo, una vez iniciado, el rendimiento de carga es rápido y eficiente. Durante el periodo inicial de espera, se recomienda tener paciencia hasta que el servidor esté completamente activo. Después de este tiempo, podrás disfrutar de una carga rápida y sin demoras.
 
