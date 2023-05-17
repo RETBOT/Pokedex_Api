@@ -39,14 +39,13 @@ Para mas información: [App Nodejs Server]( https://github.com/RETBOT/Pokedex_Ap
 URl de servidor en linea: https://pokedex-api-server.onrender.com/api/v1/pokedex <br>
 Para continuar a la siguiente pagina modificar page=[Número de página] <br>
 Ejemplo: https://pokedex-api-server.onrender.com/api/v1/pokedex?page=2 
-
 ## Imagenes
 ```
  https://pokedex-api-server.onrender.com/api/v1/pokedex?page=1
  ```
 ![Api-Pokemon](https://github.com/RETBOT/Pokedex_Api_Nodejs/blob/main/Imgs/Pokemon%20Api.png)
 ```
- https://pokedex-api-server.onrender.com/api/v1/pokedex/N.º0004
+ https://pokedex-api-server.onrender.com/api/v1/pokedex/4
  ```
 ![Api-1-Pokemon](https://github.com/RETBOT/Pokedex_Api_Nodejs/blob/main/Imgs/Pokemon%20Api%20pokemon.png)
 
