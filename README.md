@@ -33,6 +33,13 @@ El scraper está escrito en C# y se encarga de obtener los datos de los Pokémon
 # Proyecto Node.js
 El proyecto Node.js se encarga de realizar las peticiones a MongoDB Atlas y proporcionar una interfaz para acceder a los datos de los Pokémon.
 
+## Peticiones 
+URl de servidor en linea: https://pokedex-api-server.onrender.com/api/v1/pokedex <br>
+
+## Imagenes
+![Api-Pokemon](https://github.com/RETBOT/Pokedex_Api_Nodejs/blob/main/Imgs/Pokemon%20Api.png)
+![Api-1-Pokemon](https://github.com/RETBOT/Pokedex_Api_Nodejs/blob/main/Imgs/Pokemon%20Api%20pokemon.png)
+
 ## Configuración del proyecto Node.js
 1. Clona este repositorio en tu máquina:
     ```shell
